@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed-size theo trang,500,50,"source,page",none,"baai/bge-m3 (OpenRouter) 1024d cosine",Baseline: cat theo so ky tu co the cat doi cau hoi/dap an,15/15,9/15,,,"dev_hit1 = Hit@1 theo trang (bao hoa); dev_hit3 = Evidence Hit@3. Evidence Hit@1 9/15. 433 chunk. 6 cau truot: 2 bang chung bi cat doi (cau 40 85); 4 cau (103 226 292 114) dung trang nhung quote khong co trong top3 - chua phan tich nguyen nhan"
+B,mot chunk/mot cau hoi,max 1200,0,"chapter,question_no,end_page,n_options,mentions_figure",none,"baai/bge-m3 (OpenRouter) 1024d cosine",Chunk theo don vi ngu nghia (cau hoi + dap an) giu nguyen bang chung (khac A chi o cach chunk),15/15,15/15,,,"Evidence Hit@1 15/15; chunk top1 dung cau gold 15/15. 600 chunk (do dai min 68 / trung vi 236 / max 1011)"
+C,mot chunk/mot cau hoi (giong B),max 1200,0,"chapter,question_no,end_page,n_options,mentions_figure","SQL chapter = (chuong cua cau gold, chi cau co khoa filter)","baai/bge-m3 (OpenRouter) 1024d cosine",Them filter chuong giam nhieu tu cau hoi tuong tu o chuong khac (khac B chi o filter),15/15,15/15,,,"Giong B tren dev. Filter chi doi thu hang o cau 85 (loai cau 246 khoi top3); chunk gold von da top1 nen khong co loi ich do duoc tren dev. Filter = chuong cua gold -> nguy co ro ri nhan. Dung chung vector voi B"

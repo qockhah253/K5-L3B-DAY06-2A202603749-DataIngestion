@@ -1,0 +1,50 @@
+{
+  "A": {
+    "dev": {
+      "n": 15,
+      "hit1": 15,
+      "evidence_hit1": 9,
+      "evidence_hit3": 9,
+      "evidence_split": 2
+    },
+    "all": {
+      "n": 15,
+      "hit1": 15,
+      "evidence_hit1": 9,
+      "evidence_hit3": 9,
+      "evidence_split": 2
+    }
+  },
+  "B": {
+    "dev": {
+      "n": 15,
+      "hit1": 15,
+      "evidence_hit1": 15,
+      "evidence_hit3": 15,
+      "evidence_split": 0
+    },
+    "all": {
+      "n": 15,
+      "hit1": 15,
+      "evidence_hit1": 15,
+      "evidence_hit3": 15,
+      "evidence_split": 0
+    }
+  },
+  "C": {
+    "dev": {
+      "n": 15,
+      "hit1": 15,
+      "evidence_hit1": 15,
+      "evidence_hit3": 15,
+      "evidence_split": 0
+    },
+    "all": {
+      "n": 15,
+      "hit1": 15,
+      "evidence_hit1": 15,
+      "evidence_hit3": 15,
+      "evidence_split": 0
+    }
+  }
+}

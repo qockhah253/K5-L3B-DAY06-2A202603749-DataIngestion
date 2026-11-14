@@ -1,0 +1,26 @@
+{
+  "A": {
+    "strategies_written": [
+      "A"
+    ],
+    "n_chunks": 433,
+    "chars": 179108,
+    "embed_seconds": 29.7,
+    "tokens": 50161,
+    "cost_usd": 0.00050161,
+    "api_calls": 14
+  },
+  "B": {
+    "strategies_written": [
+      "B",
+      "C"
+    ],
+    "n_chunks": 600,
+    "chars": 166027,
+    "embed_seconds": 51.7,
+    "tokens": 46758,
+    "cost_usd": 0.0004675799999999999,
+    "api_calls": 19
+  },
+  "model": "baai/bge-m3"
+}

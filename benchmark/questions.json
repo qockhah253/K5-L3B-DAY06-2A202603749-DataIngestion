@@ -1,0 +1,416 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Vạch kẻ đường dùng để chỉ điều gì?",
+    "expected_answer": "Là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí dừng lại.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 5,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      5
+    ],
+    "question_pages": [
+      5,
+      5
+    ],
+    "evidence_quote": "Là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí dừng lại.",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Biển báo hiệu đường bộ chia thành mấy nhóm?",
+    "expected_answer": "Năm nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh, biển chỉ dẫn, biển phụ.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 33,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      10
+    ],
+    "question_pages": [
+      10,
+      10
+    ],
+    "evidence_quote": "Năm nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh, biển chỉ dẫn, biển phụ.",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Tới đường ngang không có người gác, chắn, chuông, đèn tín hiệu thì người tham gia giao thông xử lý thế nào?",
+    "expected_answer": "Dừng lại về bên phải đường của mình, trước vạch dừng xe và quan sát hai phía, khi không có phương tiện giao thông đường sắt tới mới được đi qua.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 99,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      24
+    ],
+    "question_pages": [
+      24,
+      24
+    ],
+    "evidence_quote": "Dừng lại về bên phải đường của mình, trước vạch dừng xe và quan sát hai phía, khi không có phương tiện giao thông đường sắt tới mới được đi qua.",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Trong hầm đường bộ, người điều khiển phương tiện phải thực hiện những quy định gì?",
+    "expected_answer": "Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu; không dừng xe, đỗ xe trong hầm đường bộ; trường hợp gặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải dừng xe, đỗ xe, người lái xe, người điều khiển xe máy chuyên dùng phải đưa xe vào vị trí dừng xe, đỗ xe khẩn cấp, nếu không di chuyển được, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách bảo đảm an toàn.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 103,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      24,
+      25
+    ],
+    "question_pages": [
+      24,
+      25
+    ],
+    "evidence_quote": "Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu; không dừng xe, đỗ xe trong hầm đường bộ; trường",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Bị trừ hết điểm giấy phép lái xe thì phục hồi điểm như thế nào?",
+    "expected_answer": "Sau thời hạn ít nhất là 06 tháng kể từ ngày bị trừ hết điểm, người có phép lái xe được tham gia kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ theo quy định, có kết quả đạt yêu cầu thì được phục hồi đủ 12 điểm.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 141,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      33
+    ],
+    "question_pages": [
+      33,
+      33
+    ],
+    "evidence_quote": "Sau thời hạn ít nhất là 06 tháng kể từ ngày bị trừ hết điểm, người có phép lái xe được tham gia kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Lái ô tô qua đường ngập nước cần làm gì để an toàn?",
+    "expected_answer": "Quan sát, ước lượng độ ngập nước mà xe ô tô có thể vượt qua an toàn, về số thấp, giữ đều ga và giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 224,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      53
+    ],
+    "question_pages": [
+      53,
+      53
+    ],
+    "evidence_quote": "Quan sát, ước lượng độ ngập nước mà xe ô tô có thể vượt qua an toàn, về số thấp, giữ đều ga và giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Lái ô tô trên đường trơn cần chú ý những điểm gì?",
+    "expected_answer": "Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm, gài cầu (nếu có), giữ đều ga, không lấy nhiều lái, không đánh lái ngoặt và phanh gấp.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 226,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      53
+    ],
+    "question_pages": [
+      53,
+      53
+    ],
+    "evidence_quote": "Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm, gài cầu (nếu có), giữ đều ga, không lấy nhiều lái, không đánh lái ngoặt và phanh",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Ô tô số tự động đi vào đường trơn trượt, lầy lội thì xử lý thế nào?",
+    "expected_answer": "Về số thấp, kết hợp phanh chân để giảm tốc độ.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 237,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      56
+    ],
+    "question_pages": [
+      56,
+      56
+    ],
+    "evidence_quote": "Về số thấp, kết hợp phanh chân để giảm tốc độ.",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Máy phát điện trên ô tô có tác dụng gì?",
+    "expected_answer": "Để phát điện năng cung cấp cho các phụ tải làm việc và nạp điện cho ắc quy.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 292,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      67,
+      68
+    ],
+    "question_pages": [
+      67,
+      68
+    ],
+    "evidence_quote": "Để phát điện năng cung cấp cho các phụ tải làm việc và nạp điện cho ắc quy.",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Gặp đèn vàng ở nơi đường giao nhau thì phải xử lý thế nào?",
+    "expected_answer": "Dừng lại trước vạch dừng; trường hợp đang đi trên vạch dừng hoặc đã đi qua vạch dừng mà tín hiệu đèn màu vàng thì được đi tiếp; trường hợp tín hiệu đèn màu vàng nhấp nháy, người điều khiển phương tiện tham gia giao thông đường bộ được đi nhưng phải quan sát, giảm tốc độ hoặc dừng lại nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường hoặc các phương tiện khác.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 40,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      12,
+      13
+    ],
+    "question_pages": [
+      12,
+      13
+    ],
+    "evidence_quote": "Dừng lại trước vạch dừng; trường hợp đang đi trên vạch dừng hoặc đã đi qua vạch dừng mà tín hiệu đèn màu vàng thì được đi tiếp; trường hợp tín hiệu đèn màu vàng",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Xe gặp sự cố kỹ thuật trên đường cao tốc thì xử lý thế nào?",
+    "expected_answer": "Dừng xe, đỗ xe ở làn dừng khẩn cấp cùng chiều xe chạy và phải có báo hiệu bằng đèn khẩn cấp; trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 114,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      27
+    ],
+    "question_pages": [
+      27,
+      27
+    ],
+    "evidence_quote": "Dừng xe, đỗ xe ở làn dừng khẩn cấp cùng chiều xe chạy và phải có báo hiệu bằng đèn khẩn cấp; trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "no_filter",
+    "question": "Ra khỏi đường cao tốc người lái xe cần làm gì để an toàn?",
+    "expected_answer": "Quan sát phía trước để tìm biển báo chỉ dẫn \"lối ra đường cao tốc\", kiểm tra tình trạng giao thông phía sau và bên phải, nếu bảo đảm điều kiện an toàn thì phát tín hiệu và điều khiển xe chuyển dần sang làn bên phải, nếu có làn đường giảm tốc thì phải cho xe di chuyển trên làn đường đó trước khi ra khỏi đường cao tốc.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 249,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      58
+    ],
+    "question_pages": [
+      58,
+      58
+    ],
+    "evidence_quote": "Quan sát phía trước để tìm biển báo chỉ dẫn \"lối ra đường cao tốc\", kiểm tra tình trạng giao thông phía sau và bên phải, nếu bảo đảm điều kiện an toàn thì phát",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "filter",
+    "question": "Khi lùi xe, người điều khiển phương tiện phải làm gì để đảm bảo an toàn?",
+    "expected_answer": "Phải quan sát hai bên và phía sau xe, có tín hiệu lùi và chỉ lùi xe khi bảo đảm an toàn.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 85,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      21
+    ],
+    "question_pages": [
+      21,
+      21
+    ],
+    "evidence_quote": "Phải quan sát hai bên và phía sau xe, có tín hiệu lùi và chỉ lùi xe khi bảo đảm an toàn.",
+    "filter": {
+      "chapter": "I"
+    },
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "filter",
+    "question": "Hành vi nào bị cấm khi điều khiển phương tiện tham gia giao thông?",
+    "expected_answer": "Dùng tay cầm và sử dụng điện thoại hoặc thiết bị điện tử khác.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 52,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      14,
+      15
+    ],
+    "question_pages": [
+      14,
+      15
+    ],
+    "evidence_quote": "Dùng tay cầm và sử dụng điện thoại hoặc thiết bị điện tử khác.",
+    "filter": {
+      "chapter": "I"
+    },
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "filter",
+    "question": "Hệ thống phanh của ô tô có công dụng gì?",
+    "expected_answer": "Dùng để giảm tốc độ, dừng chuyển động của xe ô tô và giữ cho xe ô tô đứng yên trên dốc.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 284,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      65
+    ],
+    "question_pages": [
+      65,
+      65
+    ],
+    "evidence_quote": "Dùng để giảm tốc độ, dừng chuyển động của xe ô tô và giữ cho xe ô tô đứng yên trên dốc.",
+    "filter": {
+      "chapter": "IV"
+    },
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "no_filter",
+    "question": "Quy tắc nào phải thực hiện khi chở trẻ em dưới 10 tuổi, cao dưới 1,35 m trên ô tô?",
+    "expected_answer": "Không được cho trẻ em ngồi cùng hàng ghế với người lái xe, trừ loại xe ô tô chỉ có một hàng ghế; người lái xe phải sử dụng, hướng dẫn sử dụng thiết bị an toàn phù hợp cho trẻ em.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 42,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      13
+    ],
+    "question_pages": [
+      13,
+      13
+    ],
+    "evidence_quote": "Không được cho trẻ em ngồi cùng hàng ghế với người lái xe, trừ loại xe ô tô chỉ có một hàng ghế; người lái xe phải sử dụng, hướng dẫn sử dụng thiết bị an toàn",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "no_filter",
+    "question": "Xe mô tô tay ga xuống đường dốc dài, độ dốc cao thì cần thao tác gì?",
+    "expected_answer": "Giữ tay ga ở mức độ phù hợp, sử dụng phanh trước và phanh sau để giảm tốc độ.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 206,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      49
+    ],
+    "question_pages": [
+      49,
+      49
+    ],
+    "evidence_quote": "Giữ tay ga ở mức độ phù hợp, sử dụng phanh trước và phanh sau để giảm tốc độ.",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "no_filter",
+    "question": "Loại xe nào được chạy tốc độ tối đa 90 km/h trên đường đôi ngoài khu đông dân cư?",
+    "expected_answer": "Xe ô tô chở người đến 28 chỗ không kể chỗ của người lái xe (trừ xe buýt); ô tô tải có trọng tải không lớn hơn 3,5 tấn.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 149,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      34
+    ],
+    "question_pages": [
+      34,
+      34
+    ],
+    "evidence_quote": "Xe ô tô chở người đến 28 chỗ không kể chỗ của người lái xe (trừ xe buýt); ô tô tải có trọng tải không lớn hơn 3,5 tấn.",
+    "filter": null,
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "filter",
+    "question": "Khi lùi xe, người lái phải xử lý thế nào để bảo đảm an toàn giao thông?",
+    "expected_answer": "Quan sát bên trái, bên phải, phía sau xe, có tín hiệu cần thiết và lùi xe với tốc độ phù hợp.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 246,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      57
+    ],
+    "question_pages": [
+      57,
+      57
+    ],
+    "evidence_quote": "Quan sát bên trái, bên phải, phía sau xe, có tín hiệu cần thiết và lùi xe với tốc độ phù hợp.",
+    "filter": {
+      "chapter": "III"
+    },
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "filter",
+    "question": "Đang lái xe mà cần nhắn tin hoặc gọi điện thì phải làm thế nào?",
+    "expected_answer": "Giảm tốc độ để dừng xe ở nơi cho phép sau đó sử dụng điện thoại để liên lạc.",
+    "gold_source_id": "csgt-600-cau-2025.pdf",
+    "gold_question_no": 254,
+    "gold_chunk_B": null,
+    "gold_pages": [
+      59
+    ],
+    "question_pages": [
+      59,
+      59
+    ],
+    "evidence_quote": "Giảm tốc độ để dừng xe ở nơi cho phép sau đó sử dụng điện thoại để liên lạc.",
+    "filter": {
+      "chapter": "III"
+    },
+    "answer_marking": "đáp án gạch chân trong PDF; cần người xác minh bằng mắt"
+  }
+]

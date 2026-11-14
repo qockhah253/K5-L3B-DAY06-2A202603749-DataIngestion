@@ -1,0 +1,75 @@
+{
+  "corpus_id": "day06-csgt-600-cau-2025",
+  "language": "vi",
+  "sources": [
+    {
+      "source_id": "csgt-600-cau-2025",
+      "title": "600 câu hỏi dùng cho sát hạch lái xe cơ giới đường bộ",
+      "publisher_original": "Cục Cảnh sát giao thông, Bộ Công an (Hà Nội, 2025) — theo bìa và lời nói đầu của file",
+      "file_local_path": "starter/data/raw/csgt-600-cau-2025.pdf (không commit; xem .gitignore)",
+      "source_path_or_url": "TODO: dán URL trang đã tải file (thuvienphapluat.vn) và/hoặc csgt.vn",
+      "license_or_permission": "Tài liệu công bố công khai; CHƯA tìm thấy giấy phép tái phân phối trong file. Không đưa PDF vào repo; chỉ nộp manifest và hướng dẫn tải. Cần xác nhận với coach.",
+      "accessed_at": "2026-11-14",
+      "snapshot_sha256": "6a6dab8543eb334b36ac9de6abcd938e864f2e0e915be27c3a2157ee6e518575",
+      "version_note": "Bìa ghi 'Hà Nội - 2025'. Không tự suy ngày hiệu lực.",
+      "physical_pages": 188,
+      "text_layer": true,
+      "ocr_used": false,
+      "normalized_chars_pages_5_188": 167067,
+      "page_ids": "page = số trang vật lý PDF (1..188); chi tiết trong data/manifest_pages.csv"
+    }
+  ],
+  "page_counting_rule": {
+    "excluded": "Trang 1-3 (bìa, ban biên soạn, lời nói đầu) và trang 4 (trống, 0 ký tự).",
+    "counted_as_content": "Trang vật lý 5-188 có >=800 ký tự sau chuẩn hóa khoảng trắng (text_rich_counted).",
+    "not_counted": "Trang <800 ký tự (phần lớn Chương V-VI, nội dung nằm trong hình biển báo/sa hình); vẫn nằm trong corpus nhưng không tính vào ngưỡng 30 trang.",
+    "counted_pages": 61,
+    "counted_page_range": [
+      5,
+      110
+    ]
+  },
+  "structure": {
+    "chapters_by_question_number": {
+      "I": [
+        1,
+        180
+      ],
+      "II": [
+        181,
+        205
+      ],
+      "III": [
+        206,
+        263
+      ],
+      "IV": [
+        264,
+        300
+      ],
+      "V": [
+        301,
+        485
+      ],
+      "VI": [
+        486,
+        600
+      ]
+    },
+    "chapter_heading_pages": {
+      "I": 5,
+      "II": 43,
+      "III": 49,
+      "IV": 62,
+      "V": 71,
+      "VI": 131
+    },
+    "answer_marking": "Đáp án đúng được gạch chân trong PDF (lời nói đầu); lớp text không chứa dấu gạch chân.",
+    "note": "Một trang có thể chứa cuối chương trước và đầu chương sau; metadata chapter của chunk cần lấy theo số câu, không theo trang."
+  },
+  "known_limits": [
+    "Chương V-VI phụ thuộc hình ảnh; benchmark bắt buộc chỉ lấy câu từ Chương I-IV.",
+    "Chưa xác minh ranh giới chương theo từng trang bằng code (sẽ làm trong ingestion).",
+    "Chưa có URL nguồn trong manifest."
+  ]
+}
