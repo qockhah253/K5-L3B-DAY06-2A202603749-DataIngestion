@@ -1,0 +1,46 @@
+﻿question_id,strategy,rank,chunk_id,page,end_page,chapter,question_no,auto_page_ok,auto_chapter_ok,filter_required,filter_compliance,label_full_and_correct,reason,label_source
+q16,A,1,A:csgt-600-cau-2025:p013:c000,13,13,,,True,,,,1,"source, page đúng (văn bản chunk có trên trang ghi)",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q16,A,2,A:csgt-600-cau-2025:p040:c002,40,40,,,True,,,,1,"source, page đúng (văn bản chunk có trên trang ghi)",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q16,A,3,A:csgt-600-cau-2025:p028:c002,28,28,,,True,,,,1,"source, page đúng (văn bản chunk có trên trang ghi)",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q16,B,1,B:csgt-600-cau-2025:q042,13,13,I,42,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 42",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q16,B,2,B:csgt-600-cau-2025:q174,40,40,I,174,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 174",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q16,B,3,B:csgt-600-cau-2025:q123,29,29,I,123,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 123",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q16,C,1,B:csgt-600-cau-2025:q042,13,13,I,42,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 42",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q16,C,2,B:csgt-600-cau-2025:q174,40,40,I,174,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 174",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q16,C,3,B:csgt-600-cau-2025:q123,29,29,I,123,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 123",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q17,A,1,A:csgt-600-cau-2025:p049:c000,49,49,,,True,,,,1,"source, page đúng (văn bản chunk có trên trang ghi)",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q17,A,2,A:csgt-600-cau-2025:p060:c002,60,60,,,True,,,,1,"source, page đúng (văn bản chunk có trên trang ghi)",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q17,A,3,A:csgt-600-cau-2025:p050:c002,50,50,,,True,,,,1,"source, page đúng (văn bản chunk có trên trang ghi)",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q17,B,1,B:csgt-600-cau-2025:q206,49,49,III,206,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 206",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q17,B,2,B:csgt-600-cau-2025:q252,59,59,III,252,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 252",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q17,B,3,B:csgt-600-cau-2025:q213,50,50,III,213,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 213",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q17,C,1,B:csgt-600-cau-2025:q206,49,49,III,206,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 206",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q17,C,2,B:csgt-600-cau-2025:q252,59,59,III,252,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 252",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q17,C,3,B:csgt-600-cau-2025:q213,50,50,III,213,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 213",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q18,A,1,A:csgt-600-cau-2025:p034:c002,34,34,,,True,,,,1,"source, page đúng (văn bản chunk có trên trang ghi)",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q18,A,2,A:csgt-600-cau-2025:p034:c003,34,34,,,True,,,,1,"source, page đúng (văn bản chunk có trên trang ghi)",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q18,A,3,A:csgt-600-cau-2025:p034:c001,34,34,,,True,,,,1,"source, page đúng (văn bản chunk có trên trang ghi)",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q18,B,1,B:csgt-600-cau-2025:q149,34,34,I,149,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 149",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q18,B,2,B:csgt-600-cau-2025:q150,34,35,I,150,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 150",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q18,B,3,B:csgt-600-cau-2025:q148,34,34,I,148,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 148",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q18,C,1,B:csgt-600-cau-2025:q149,34,34,I,149,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 149",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q18,C,2,B:csgt-600-cau-2025:q150,34,35,I,150,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 150",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q18,C,3,B:csgt-600-cau-2025:q148,34,34,I,148,True,True,,,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 148",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q19,A,1,A:csgt-600-cau-2025:p021:c002,21,21,,,True,,III,N/A (không có chapter),0,câu cần filter nhưng chunk A không có trường chapter,Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q19,A,2,A:csgt-600-cau-2025:p021:c003,21,21,,,True,,III,N/A (không có chapter),0,câu cần filter nhưng chunk A không có trường chapter,Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q19,A,3,A:csgt-600-cau-2025:p057:c003,57,57,,,True,,III,N/A (không có chapter),0,câu cần filter nhưng chunk A không có trường chapter,Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q19,B,1,B:csgt-600-cau-2025:q085,21,21,I,85,True,True,III,KHÔNG (chương I),1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 85",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q19,B,2,B:csgt-600-cau-2025:q246,57,57,III,246,True,True,III,tuân thủ,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 246",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q19,B,3,B:csgt-600-cau-2025:q086,21,21,I,86,True,True,III,KHÔNG (chương I),1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 86",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q19,C,1,B:csgt-600-cau-2025:q246,57,57,III,246,True,True,III,tuân thủ,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 246",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q19,C,2,B:csgt-600-cau-2025:q214,50,51,III,214,True,True,III,tuân thủ,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 214",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q19,C,3,B:csgt-600-cau-2025:q261,60,60,III,261,True,True,III,tuân thủ,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 261",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q20,A,1,A:csgt-600-cau-2025:p059:c002,59,59,,,True,,III,N/A (không có chapter),0,câu cần filter nhưng chunk A không có trường chapter,Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q20,A,2,A:csgt-600-cau-2025:p048:c000,48,48,,,True,,III,N/A (không có chapter),0,câu cần filter nhưng chunk A không có trường chapter,Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q20,A,3,A:csgt-600-cau-2025:p020:c004,20,20,,,True,,III,N/A (không có chapter),0,câu cần filter nhưng chunk A không có trường chapter,Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q20,B,1,B:csgt-600-cau-2025:q254,59,59,III,254,True,True,III,tuân thủ,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 254",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q20,B,2,B:csgt-600-cau-2025:q081,20,20,I,81,True,True,III,KHÔNG (chương I),1,"source, page đúng (văn bản chunk có trên trang ghi); chapter I khớp câu 81",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q20,B,3,B:csgt-600-cau-2025:q205,48,48,II,205,True,True,III,KHÔNG (chương II),1,"source, page đúng (văn bản chunk có trên trang ghi); chapter II khớp câu 205",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q20,C,1,B:csgt-600-cau-2025:q254,59,59,III,254,True,True,III,tuân thủ,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 254",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q20,C,2,B:csgt-600-cau-2025:q248,58,58,III,248,True,True,III,tuân thủ,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 248",Claude kiểm tra tự động + gợi ý; tác giả duyệt
+q20,C,3,B:csgt-600-cau-2025:q253,59,59,III,253,True,True,III,tuân thủ,1,"source, page đúng (văn bản chunk có trên trang ghi); chapter III khớp câu 253",Claude kiểm tra tự động + gợi ý; tác giả duyệt
