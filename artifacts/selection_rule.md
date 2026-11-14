@@ -27,6 +27,28 @@ Hit@1 theo trang KHÔNG dùng để chọn vì bão hòa (15/15 cả ba), chỉ 
 - Tập test vẫn chạy cho cả A, B, C để báo cáo đầy đủ. Quyết định trên KHÔNG đổi sau khi xem test.
   Nếu C tốt hơn B trên test thì ghi nhận như một phát hiện, không đổi chiến lược đã chọn.
 
+## Kết quả test (chạy sau commit 9a786e5, n = 5)
+
+| Chiến lược | Hit@1 (trang) | Evidence Hit@1 | Evidence Hit@3 | evidence_split |
+|---|---|---|---|---|
+| A | 4/5 | 3/5 | 4/5 | 0 |
+| B | 4/5 | 4/5 | 5/5 | 0 |
+| C | 5/5 | 5/5 | 5/5 | 0 |
+
+- Quyết định giữ nguyên: **B**. Không sửa tập test sau khi xem kết quả.
+- Phát hiện: q19 (câu 246, Chương III): B xếp câu 85 (Chương I, điểm 0,7539) trên gold 246 (0,7435);
+  C lọc chương III đưa 246 lên hạng 1. Đây là trường hợp duy nhất trong 20 câu filter có lợi.
+  Giá trị filter = chương của gold -> nguy cơ rò rỉ nhãn.
+
+## Ghi chú về q18 (câu 149) trong tập test
+
+- Đáp án câu 149 trùng nguyên văn với câu 150 (cùng trang 34) -> q18 trúng ở cả A, B, C,
+  không phân biệt được chiến lược.
+- Trước khi chạy test đã định thay q18 bằng câu 15, nhưng thay đổi đó không được ghi vào
+  file benchmark trên máy (lỗi khi chép file); commit 9a786e5 chứa câu 149.
+- Xử lý: giữ nguyên tập test như đã commit; báo cáo thêm số liệu trên 4 câu phân biệt được
+  (bỏ q18): A Hit@1 3/4, Evidence Hit@3 3/4; B Hit@1 3/4, Evidence Hit@3 4/4; C 4/4, 4/4.
+
 ## Hạn chế đã biết của dev (ghi vào báo cáo)
 
 - Trên dev, chunk gold của B đã đứng đầu 15/15 nên filter của C không có chỗ cải thiện;
