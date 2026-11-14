@@ -7,7 +7,7 @@
       "title": "600 câu hỏi dùng cho sát hạch lái xe cơ giới đường bộ",
       "publisher_original": "Cục Cảnh sát giao thông, Bộ Công an (Hà Nội, 2025) — theo bìa và lời nói đầu của file",
       "file_local_path": "starter/data/raw/csgt-600-cau-2025.pdf (không commit; xem .gitignore)",
-      "source_path_or_url": "TODO: dán URL trang đã tải file (thuvienphapluat.vn) và/hoặc csgt.vn",
+      "source_path_or_url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/tai-ve-600-cau-ly-thuyet-moi-cua-bo-cong-an-2025-pdf-moi-nhat-dung-cho-sat-hach-lai-xe-co-gioi-duon-138073300.html",
       "license_or_permission": "Tài liệu công bố công khai; CHƯA tìm thấy giấy phép tái phân phối trong file. Không đưa PDF vào repo; chỉ nộp manifest và hướng dẫn tải. Cần xác nhận với coach.",
       "accessed_at": "2026-11-14",
       "snapshot_sha256": "6a6dab8543eb334b36ac9de6abcd938e864f2e0e915be27c3a2157ee6e518575",
@@ -16,7 +16,8 @@
       "text_layer": true,
       "ocr_used": false,
       "normalized_chars_pages_5_188": 167067,
-      "page_ids": "page = số trang vật lý PDF (1..188); chi tiết trong data/manifest_pages.csv"
+      "page_ids": "page = số trang vật lý PDF (1..188); chi tiết trong data/manifest_pages.csv",
+      "download_note": "Tải PDF từ trang trên, đặt tại starter/data/raw/csgt-600-cau-2025.pdf, kiểm tra sha256 trùng snapshot_sha256."
     }
   ],
   "page_counting_rule": {
